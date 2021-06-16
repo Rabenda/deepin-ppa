@@ -5,16 +5,16 @@ Origin: deepin
 Label: deepin
 Suite: apricot
 Codename: apricot
-Date: Wed, 16 Jun 2021 14:47:23 UTC
+Date: Wed, 16 Jun 2021 15:59:19 UTC
 Architectures: amd64 i386
 Components: main contrib non-free
 Description: Apt repository for Rabenda's ppa
 MD5Sum:
- 7c5b6ccd8c0780187189ed080e01b1f2 18131 main/binary-amd64/Packages
- 6bc837183652342de5e9143d53b8ce2a 5866 main/binary-amd64/Packages.gz
+ bc9f3d83a60fd5573ea773a6ee2a70bd 37557 main/binary-amd64/Packages
+ a22afb1c1f4a478fd100efd5eb5eedf2 9970 main/binary-amd64/Packages.gz
  a3b66dd41191178a91bcc32f73c1e413 128 main/binary-amd64/Release
- fc56a51871b657df2bcd62aa3c9698aa 6892 main/binary-i386/Packages
- ef84431ae3b0612aaa10aaa7171b2d4f 2564 main/binary-i386/Packages.gz
+ 5a79e53b3d6a1db5ef013b947847b43a 24334 main/binary-i386/Packages
+ fe2357123a66f562b844e47339cf5613 6239 main/binary-i386/Packages.gz
  3d4b4415a7de70b421db4574481f1ee5 127 main/binary-i386/Release
  d41d8cd98f00b204e9800998ecf8427e 0 main/source/Sources
  7029066c27ac6f5ef18d660d5741979a 20 main/source/Sources.gz
@@ -38,11 +38,11 @@ MD5Sum:
  7029066c27ac6f5ef18d660d5741979a 20 non-free/source/Sources.gz
  bea27bf9dc6521cadde9f93c159ef13b 133 non-free/source/Release
 SHA1:
- 414633dccee5161a3430a9aed0bbc4dd923d03b4 18131 main/binary-amd64/Packages
- e72ef86cf1fe1c265725cdaf78d9e759496cd44a 5866 main/binary-amd64/Packages.gz
+ a75f11d135cd4f03e3469cf2da01948b33128677 37557 main/binary-amd64/Packages
+ 9f6a808e1049dac382cdccd7912f2ca88db5d85b 9970 main/binary-amd64/Packages.gz
  b5986d3c2eb0235d64bf6fada8258b96de442955 128 main/binary-amd64/Release
- b36a42a3467ff7bca6c465e18a038feec23f113e 6892 main/binary-i386/Packages
- 9ca33c74a4648d3b691c79a01e5819f71e783408 2564 main/binary-i386/Packages.gz
+ 5998cd10818c30d9fb7298d5aae63d880c331fec 24334 main/binary-i386/Packages
+ a01d1dada376998cab5e9a4d16e6fc6881cd318f 6239 main/binary-i386/Packages.gz
  9a1b8c4f5e44f1e774d92c783d1c31c5053348c0 127 main/binary-i386/Release
  da39a3ee5e6b4b0d3255bfef95601890afd80709 0 main/source/Sources
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 main/source/Sources.gz
@@ -66,11 +66,11 @@ SHA1:
  46c6643f07aa7f6bfe7118de926b86defc5087c4 20 non-free/source/Sources.gz
  e63230389a9de3b825d68228d7498a6681d6c12c 133 non-free/source/Release
 SHA256:
- a32c214a2de321db4aef9be8acee16ad633d132c88f38cf95102946320cf85af 18131 main/binary-amd64/Packages
- 3440f2c82f7e7c2115b2d46511562f5dd68de73b4ffa12a944eb481d8db2d5a4 5866 main/binary-amd64/Packages.gz
+ 7d06aef9b7eb24e30e1e7fd7ae5cc04dd4de9fea6573908255989c721db34a9c 37557 main/binary-amd64/Packages
+ e2edc98ef8f3236c9ff0e049e41cc4cbd20d8261a4d3a0d621836e53eb4c8129 9970 main/binary-amd64/Packages.gz
  82dacfde836ec462bac2f2e8028069d8a6036aafa67d7d6ac7ed83456c37a8bd 128 main/binary-amd64/Release
- 68f2aa6cea77ad1c15beadf8860110b00373c2a0f30fe3ec25ff476682a6d2d3 6892 main/binary-i386/Packages
- 6a465ad6ed9c035d3c97b88d7ae0a124974b5b363cde99a14b7f71452d8c5de8 2564 main/binary-i386/Packages.gz
+ 48e52a1d79551a22a94f5f770ebefef6c723ff380cdfadf9a60eac656048460c 24334 main/binary-i386/Packages
+ 76e1c4e87ff86783feb61d47818212b33b4cf03427115231439ee4bddf8546d8 6239 main/binary-i386/Packages.gz
  250ec59a5c7c7816f6a74700856cff199916b613bb08b0782bd131051d7390fb 127 main/binary-i386/Release
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/source/Sources
  59869db34853933b239f1e2219cf7d431da006aa919635478511fabbfc8849d2 20 main/source/Sources.gz
@@ -95,15 +95,15 @@ SHA256:
  8ba99492180c2c38fcbca47b6e8a4c0d225bb0ac8a376f4b8bc2d663c6ab2339 133 non-free/source/Release
 -----BEGIN PGP SIGNATURE-----
 
-iQGzBAEBCgAdFiEEIJmf/FDkAFsEHFEFptIDpZsofOYFAmDKDvsACgkQptIDpZso
-fOYJFQv7BqeYiAVZsr4xP1oeO8F2TYS120pr9suceCHeLPOuZlA4Tic3h7SCpqC0
-OOwS4sAWjXZ39hQB1ZJgKiWXthNGYB2Y6xObCJmKxP/bkzVvOFGb0v9uD/EDXtXI
-XyQUln4/WF7+6QaLmg9FMU2m2XCb+N4oxL5dP/XDC9qX+XmuswhUIVXsbf5d1EZw
-UjxvVB70VofmBI2rRER/U+NWHLOezUihCNcv+RJbmvUqM1bUTflsfUUi4LoLf3uf
-gqh0NAL67mH5fHOInWJnV8E83H4NVtAxtpso8NYrq1JgMjrv8laqT1ENmXXAJbRM
-kWk60/3eA3iubyuTlz28FN9gfC4SrgPL68+UAZ5HRqFG4L6Ofear67CjQXJwpVCZ
-wJ/qAocheq7hpLpvZqxqjoHIYd8Th1PARp7N4yhYz48hkCryj8CL5Ug1b/m46QeA
-mELkEgdm2tQriSyP+0SA8mekg9eeL0D8oC9TPwubh41e4c8B0uhjQImJhtAZ6OI7
-z2EGMjGV
-=Nogl
+iQGzBAEBCgAdFiEEIJmf/FDkAFsEHFEFptIDpZsofOYFAmDKH9cACgkQptIDpZso
+fOYCKwv/QwfH2ZSDs2a5rYJzISU6FRNK8O4EQtNx9yw/IdmkPwR8Jvk7HpZTOoqS
+Lk/CDachXQPtP3oeXYSpBF+rIIEv0Wt3ev0/gPkBvJJWYyav5uKJJuCpZ/AbZb2h
+in9BnRRq/N9iewIpmNkmkLO2OErJaT4QRsY7wquR8JrWILlJ6/QR49n92Y2YzdXs
+l0hN/xeDsJYpWA/FPuWjC5UTkK/aso93yfBbAOEjJvrIyzfawHbOQ4PTl6x0+sUA
+ZsTDWZ84dePUXUiRDPxBlIU/pHkGyi1oK56mvX2C7jSvPY59FommUcu1L4gbucCl
+KxZ6WnGtDYMJM1jsu3Kc83UWMr7m/xv47iknKiggf/DFxyuIYvyvBC1Zb3DGsq1+
+c4JqLd4oZgmFQxQkRE7zx9kSdZlD9utIhZ2jCtg+vaiGECkVjwTdSJltEBXYVC25
+4zLQvL7A5xOELUqHE7j5kBSz7o4a2s+t9GQDFG/EqYJ18nHjgZ+TDFpfgD+8n0rb
+Kpz/WTfQ
+=t7B1
 -----END PGP SIGNATURE-----
