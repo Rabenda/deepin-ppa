@@ -1,0 +1,387 @@
+Package: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: amd64
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 16596
+Depends: cmake-data (= 3.16.3-3~bpo10+1), procps, libarchive13 (>= 3.3.3), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libexpat1 (>= 2.0.1), libgcc1 (>= 1:3.0), libjsoncpp1 (>= 1.7.4), librhash0 (>= 1.2.6), libstdc++6 (>= 6), libuv1 (>= 1.11.0), zlib1g (>= 1:1.1.4)
+Recommends: gcc, make
+Suggests: cmake-doc, ninja-build
+Multi-Arch: foreign
+Homepage: https://cmake.org/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cmake/cmake_3.16.3-3~bpo10+1_amd64.deb
+Size: 3328092
+SHA256: 14ed9d09cb56cfc864925494d0eaae22f53572e66e1ef31eb61022adaead05fe
+SHA1: 38b020da60fad9aabb520f6b3b782d5ecc74fb55
+MD5sum: a2192e7cade41256f86fab127d2b63ac
+Description: cross-platform, open-source make system
+ CMake is used to control the software compilation process using
+ simple platform and compiler independent configuration files. CMake
+ generates native makefiles and workspaces that can be used in the
+ compiler environment of your choice. CMake is quite sophisticated: it
+ is possible to support complex environments requiring system
+ configuration, pre-processor generation, code generation, and template
+ instantiation.
+ .
+ CMake was developed by Kitware as part of the NLM Insight
+ Segmentation and Registration Toolkit project. The ASCI VIEWS project
+ also provided support in the context of their parallel computation
+ environment. Other sponsors include the Insight, VTK, and VXL open
+ source software communities.
+
+Package: cmake-curses-gui
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: amd64
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 4875
+Depends: cmake (= 3.16.3-3~bpo10+1), libarchive13 (>= 3.3.3), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libjsoncpp1 (>= 1.7.4), libncurses6 (>= 6), librhash0 (>= 1.2.6), libstdc++6 (>= 5.2), libtinfo6 (>= 6), libuv1 (>= 1.11.0), zlib1g (>= 1:1.1.4)
+Homepage: https://cmake.org/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cmake/cmake-curses-gui_3.16.3-3~bpo10+1_amd64.deb
+Size: 1601204
+SHA256: 29e9ed7d528e398b2e49e58fc1db24a30d151d724e87c97e9656e2aeab030b7e
+SHA1: 37871e3ba3915454036b5586a5081deda9802654
+MD5sum: 700ff4dc8c0236b5f907d4db90e5104c
+Description: curses based user interface for CMake (ccmake)
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates native
+ makefiles and workspaces that can be used in the compiler environment of your
+ choice.
+ .
+ This package provides the CMake curses interface. Project configuration
+ settings may be specified interactively through this GUI. Brief instructions
+ are provided at the bottom of the terminal when the program is running. The
+ main executable file for this GUI is "ccmake".
+
+Package: cmake-data
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: all
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 8463
+Homepage: https://cmake.org/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cmake/cmake-data_3.16.3-3~bpo10+1_all.deb
+Size: 1628176
+SHA256: 9c072d3b0d3b35fed76d74cbf13d72a9b4e7b08333df5f9ccf4fb55078d0e282
+SHA1: e9125c29a524b0696ed3031f81428f7e2a4e78ba
+MD5sum: 9def9bc6634d4ea5da1f9afba71a363a
+Description: CMake data files (modules, templates and documentation)
+ This package provides CMake architecture independent data files (modules,
+ templates, documentation etc.). Unless you have cmake installed, you probably
+ do not need this package.
+
+Package: cmake-doc
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: all
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 21390
+Depends: cmake-data (= 3.16.3-3~bpo10+1), libjs-sphinxdoc (>= 1.0)
+Recommends: doc-base
+Suggests: cmake
+Homepage: https://cmake.org/
+Priority: optional
+Section: doc
+Filename: pool/main/c/cmake/cmake-doc_3.16.3-3~bpo10+1_all.deb
+Size: 1412508
+SHA256: 33d1f176fae646d0f5fa75a9ca7295697ca82070b0d6ef6256bda69fa5daccad
+SHA1: 947158d03a81a99d369141c3460a79e60f60137f
+MD5sum: d0cd35be7d377e3606a40f420257e5d8
+Description: extended documentation in various formats for CMake
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates native
+ makefiles and workspaces that can be used in the compiler environment of your
+ choice.
+ .
+ This package provides additional documentation in various formats like HTML or
+ plain text.
+
+Package: cmake-qt-gui
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: amd64
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 5221
+Depends: cmake (= 3.16.3-3~bpo10+1), libarchive13 (>= 3.3.3), libc6 (>= 2.17), libcurl4 (>= 7.16.2), libgcc1 (>= 1:3.0), libjsoncpp1 (>= 1.7.4), libqt5core5a (>= 5.15.1), libqt5gui5 (>= 5.0.2) | libqt5gui5-gles (>= 5.0.2), libqt5widgets5 (>= 5.11.0~rc1), librhash0 (>= 1.2.6), libstdc++6 (>= 5.2), libuv1 (>= 1.11.0), zlib1g (>= 1:1.1.4)
+Provides: cmake-gui
+Homepage: https://cmake.org/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cmake/cmake-qt-gui_3.16.3-3~bpo10+1_amd64.deb
+Size: 1692020
+SHA256: 3d54ca807cb19037d93ae8703c0159f73593c2ab3ff26efb1e87029dead9eb70
+SHA1: 7c52494bf0ff677c406e0c758165904f29edbb20
+MD5sum: 0b457e40bc7f896296fd09de2170e18a
+Description: Qt based user interface for CMake (cmake-gui)
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates native
+ makefiles and workspaces that can be used in the compiler environment of your
+ choice.
+ .
+ This package provides the CMake Qt based GUI. Project configuration
+ settings may be specified interactively. Brief instructions are provided at
+ the bottom of the window when the program is running. The main executable
+ file for this GUI is "cmake-gui".
+
+Package: debhelper
+Version: 13.3.3~bpo10+1
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 1464
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdpkg-perl (>= 1.17.14), man-db, libdebhelper-perl (= 13.3.3~bpo10+1), po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-systemd
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/d/debhelper/debhelper_13.3.3~bpo10+1_all.deb
+Size: 1013344
+SHA256: bf7ff298508bdf7b97f29fb22e4afa74135f7c7d75fe37ba7f52bd77cffab0a5
+SHA1: c0cb471fe3491352c4173248bc1ff37afd22be98
+MD5sum: 3b037e7e9b2f7c6a43095b18d4496eaa
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+
+Package: dwz
+Version: 0.13-5~bpo10+1
+Architecture: amd64
+Maintainer: Debian GCC Maintainers <debian-gcc@lists.debian.org>
+Installed-Size: 484
+Depends: libc6 (>= 2.14), libelf1 (>= 0.131)
+Multi-Arch: foreign
+Homepage: https://www.sourceware.org/dwz/
+Priority: optional
+Section: devel
+Filename: pool/main/d/dwz/dwz_0.13-5~bpo10+1_amd64.deb
+Size: 150132
+SHA256: 5a2a06547562d83905f3232c9613264750c405ff5282e5c4bd9a712510c80b7d
+SHA1: dfbf26f3a2241c6249dfb087e1c57e8289ad7cae
+MD5sum: 6a4d3dc8b4b58861c43a73ca72f34e95
+Description: DWARF compression tool
+ DWARF optimizer and duplication removal utility.
+
+Package: libdebhelper-perl
+Source: debhelper
+Version: 13.3.3~bpo10+1
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 402
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Replaces: debhelper (<< 12.6~)
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.3.3~bpo10+1_all.deb
+Size: 188944
+SHA256: e4f84a92eabf59c474beabd6bb06ae17e7c1ecfd61931f3e59cd92bcba5da901
+SHA1: dbc96d1ab35fc10d25608e6791a911123d4b8d71
+MD5sum: 330acfa839e316dcdd7f248d1c52467b
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+
+Package: libexpected-dev
+Source: tl-expected
+Version: 1.0.0~dfsg-2~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 115
+Multi-Arch: foreign
+Homepage: https://tl.tartanllama.xyz/
+Priority: optional
+Section: libdevel
+Filename: pool/main/t/tl-expected/libexpected-dev_1.0.0~dfsg-2~bpo10+1_all.deb
+Size: 16020
+SHA256: 6b73b1beeec15b97f056bc6bb3360e6bf4de270d55f3199846f97d780b9617be
+SHA1: edf465a7a0a2260a3bb7cfc39ec4fa9c4222ddd6
+MD5sum: 303c519376b9d78adda36cb28fc6198c
+Description: C++11/14/17 std::expected with functional-style extensions
+ Single header implementation of std::expected with functional-style extensions.
+ .
+ std::expected is proposed as the preferred way to represent object which will
+ either have an expected value, or an unexpected value giving information about
+ why something failed. Unfortunately, chaining together many computations which
+ may fail can be verbose, as error-checking code will be mixed in with the
+ actual programming logic. This implementation provides a number of utilities to
+ make coding with expected cleaner.
+
+Package: librange-v3-dev
+Source: range-v3
+Version: 0.10.0-1~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 2168
+Recommends: librange-v3-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ericniebler/range-v3
+Priority: optional
+Section: libdevel
+Filename: pool/main/r/range-v3/librange-v3-dev_0.10.0-1~bpo10+1_all.deb
+Size: 218676
+SHA256: 476f03dcde35bdb32dd5d6f5466a3a655db76716280c7981a2e3e182d794631e
+SHA1: f2fcfa9a0d9ec6db65a9d22e636833c279faeca8
+MD5sum: b5a93ede2a911c27985597d14648e429
+Description: range algorithms, views, and actions for C++14/17/20 - headers
+ Range-v3 is a generic library that augments the existing standard library with
+ facilities for working with ranges. A range can be loosely thought of a pair
+ of iterators. This library provides a full implementation of all the standard
+ algorithms with range-based overloads for convenience.
+ .
+ This package contains headers of the library.
+
+Package: librange-v3-doc
+Source: range-v3
+Version: 0.10.0-1~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 17830
+Multi-Arch: foreign
+Homepage: https://github.com/ericniebler/range-v3
+Priority: optional
+Section: doc
+Filename: pool/main/r/range-v3/librange-v3-doc_0.10.0-1~bpo10+1_all.deb
+Size: 1054408
+SHA256: 4e7ee8328415e44a7cb3fcb59ba635285e8695bb69a61260798b4d45e1c6f3da
+SHA1: a495da65c52b3b6453dc90c98fba8561a0bf6b27
+MD5sum: bea8c9268cbd8054c7acffd6cea58dad
+Description: range algorithms, views, and actions for C++14/17/20 - documentation
+ Range-v3 is a generic library that augments the existing standard library with
+ facilities for working with ranges. A range can be loosely thought of a pair
+ of iterators. This library provides a full implementation of all the standard
+ algorithms with range-based overloads for convenience.
+ .
+ This package ships HTML documentation of the library.
+
+Package: librlottie-dev
+Source: rlottie
+Version: 0~git20190721.24346d0+dfsg-2~bpo10+2
+Architecture: amd64
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 71
+Depends: librlottie0-1 (= 0~git20190721.24346d0+dfsg-2~bpo10+2)
+Multi-Arch: same
+Homepage: https://github.com/Samsung/rlottie
+Priority: optional
+Section: libdevel
+Filename: pool/main/r/rlottie/librlottie-dev_0~git20190721.24346d0+dfsg-2~bpo10+2_amd64.deb
+Size: 17816
+SHA256: 0f43d360abfd8d81966223fa0bd678d3fc56c6957d88bfa8c7af23f98580d9f7
+SHA1: c37b2a40a9dbb6e27d2ae221d0ccfc0ce0e67f06
+MD5sum: fb01c8ba303084fd303fa29ce9c558ec
+Description: library for rendering vector based animations and art (development headers)
+ Lottie loads and renders animations and vectors exported in the bodymovin JSON
+ format. Bodymovin JSON can be created and exported from After Effects with
+ bodymovin, Sketch with Lottie Sketch Export, and from Haiku.
+ .
+ For the first time, designers can create and ship beautiful animations without
+ an engineer painstakingly recreating it by hand. Since the animation is backed
+ by JSON they are extremely small in size but can be large in complexity.
+ .
+ This package provides public C/C++ headers.
+
+Package: librlottie0-1
+Source: rlottie
+Version: 0~git20190721.24346d0+dfsg-2~bpo10+2
+Architecture: amd64
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 447
+Depends: libc6 (>= 2.27), libgcc1 (>= 1:3.0), libstdc++6 (>= 6)
+Multi-Arch: same
+Homepage: https://github.com/Samsung/rlottie
+Priority: optional
+Section: libs
+Filename: pool/main/r/rlottie/librlottie0-1_0~git20190721.24346d0+dfsg-2~bpo10+2_amd64.deb
+Size: 167780
+SHA256: 1b4efbebcbd8c8c0b9b32f30a9e1a743a746f87ce483f080e080c3732cb39797
+SHA1: fe687a786c84e9af9f91a464b9b3039917438303
+MD5sum: b2c04704691f38f5742dd038daee0af7
+Description: library for rendering vector based animations and art
+ Lottie loads and renders animations and vectors exported in the bodymovin JSON
+ format. Bodymovin JSON can be created and exported from After Effects with
+ bodymovin, Sketch with Lottie Sketch Export, and from Haiku.
+ .
+ For the first time, designers can create and ship beautiful animations without
+ an engineer painstakingly recreating it by hand. Since the animation is backed
+ by JSON they are extremely small in size but can be large in complexity.
+
+Package: libtgowt-dev
+Source: libtgowt
+Version: 0~git20210124.be23804+ds-3~bpo10+1
+Architecture: amd64
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 62293
+Depends: libavcodec-dev, libavformat-dev, libavutil-dev, libjpeg62-turbo-dev | libjpeg62-dev | libjpeg9-dev, libopus-dev, libprotobuf-dev, libssl-dev, libswresample-dev, libswscale-dev
+Multi-Arch: same
+Homepage: https://github.com/desktop-app/tg_owt
+Priority: optional
+Section: libdevel
+Filename: pool/main/libt/libtgowt/libtgowt-dev_0~git20210124.be23804+ds-3~bpo10+1_amd64.deb
+Size: 8721724
+SHA256: f236a3886a0dd1d189b48f46dbaf4733e94aa9cacc339c16104b7c242950af06
+SHA1: c4837a3b3b4fc95c5b5512f1cd586d6d29688922
+MD5sum: 26b4104709ab3583e47c25c32dcf5af9
+Description: telegram related WebRTC fork
+ This supporting package contains a reduced fork of WebRTC source code. It is
+ primarily needed for build support of video calls in Telegram Desktop. WebRTC
+ project, in general, provides applications real-time capabilities that work on
+ top of an open standard.
+
+Package: libtgvoip-dev
+Source: libtgvoip
+Version: 2.4.4+git20210101.13a5fcb+ds-2~bpo10+1
+Architecture: amd64
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 1455
+Depends: libopus-dev, libssl-dev, libtgowt-dev
+Multi-Arch: same
+Homepage: https://github.com/grishka/libtgvoip
+Priority: optional
+Section: libdevel
+Filename: pool/main/libt/libtgvoip/libtgvoip-dev_2.4.4+git20210101.13a5fcb+ds-2~bpo10+1_amd64.deb
+Size: 243496
+SHA256: 613ffa1f95c08b6a8786e98162c205b155cc11c651a4268fb3faa91e01af2ee0
+SHA1: 93312a1e60040c06d7ba1e4749a54c6ce85acda8
+MD5sum: 703d875c97691d87e0555557fed7bea6
+Description: VoIP library for Telegram clients - developer files
+ This package contains the multiplatform library for calls in Telegram.
+ Telegram is a free cloud-based instant messaging service, it was established
+ by Pavel Durov and his team in 2013.
+ .
+ This package provides headers files and static library for development.
+
+Package: telegram-desktop
+Version: 2.6.1+ds-1~bpo10+1
+Architecture: amd64
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 57974
+Depends: qt5-image-formats-plugins (>= 5.9.0), libatk1.0-0 (>= 1.12.4), libavcodec58 (>= 7:4.0), libavformat58 (>= 7:4.1), libavutil56 (>= 7:4.0), libc6 (>= 2.27), libcairo-gobject2 (>= 1.10.0), libcairo2 (>= 1.2.4), libdbusmenu-qt5-2 (>= 0.3.2), libgcc1 (>= 1:3.0), libgdk-pixbuf2.0-0 (>= 2.22.0), libglib2.0-0 (>= 2.35.9), libgtk-3-0 (>= 3.21.4), libhunspell-1.7-0, libjpeg62-turbo (>= 1.3.1), liblz4-1 (>= 0.0~r130), liblzma5 (>= 5.1.1alpha+20120614), libminizip1 (>= 1.1), libopenal1 (>= 1.14), libopus0 (>= 1.1), libpango-1.0-0 (>= 1.14.0), libpangocairo-1.0-0 (>= 1.14.0), libprotobuf17, libqrcodegencpp1 (>= 1.2.1), libqt5core5a (>= 5.15.1), libqt5dbus5 (>= 5.14.1), libqt5gui5 (>= 5.15.1) | libqt5gui5-gles (>= 5.15.1), libqt5network5 (>= 5.15.1), libqt5widgets5 (>= 5.15.1), librlottie0-1 (>= 0~git20190721.24346d0+dfsg), libssl1.1 (>= 1.1.0), libstdc++6 (>= 6), libswresample3 (>= 7:4.0), libswscale5 (>= 7:4.0), libx11-6, libxcb-keysyms1 (>= 0.4.0.1), libxcb-record0, libxcb-screensaver0, libxcb1, libxxhash0 (>= 0.6.5), qtbase-abi-5-15-1, zlib1g (>= 1:1.1.4)
+Recommends: fonts-open-sans
+Built-Using: libtgowt (= 0~git20210124.be23804+ds-3~bpo10+1), libtgvoip (= 2.4.4+git20210101.13a5fcb+ds-2~bpo10+1), ms-gsl (= 1.0.0-2), range-v3 (= 0.10.0-1~bpo10+1), tl-expected (= 1.0.0~dfsg-2~bpo10+1)
+Homepage: https://desktop.telegram.org
+Priority: optional
+Section: net
+Filename: pool/main/t/telegram-desktop/telegram-desktop_2.6.1+ds-1~bpo10+1_amd64.deb
+Size: 22407292
+SHA256: 0d8b5da185082cba279b7b30caf8c03164e70d0203598d472dc9d7e891d51c0c
+SHA1: 92275e22b1aa44aae702a57703c350e160869273
+MD5sum: 688bd482d3bf4e4d77c57479a39f94ba
+Description: fast and secure messaging application
+ Telegram is a messaging app with a focus on speed and security, it is
+ super-fast, simple and free. You can use Telegram on all your devices at the
+ same time — your messages sync seamlessly across any number of your phones,
+ tablets or computers.
+

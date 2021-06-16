@@ -1,0 +1,6 @@
+Archive: apricot
+Component: main
+Origin: deepin
+Label: deepin
+Architecture: source
+Description: Apt repository for Rabenda's ppa

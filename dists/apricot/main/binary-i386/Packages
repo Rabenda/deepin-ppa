@@ -1,0 +1,165 @@
+Package: cmake-data
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: all
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 8463
+Homepage: https://cmake.org/
+Priority: optional
+Section: devel
+Filename: pool/main/c/cmake/cmake-data_3.16.3-3~bpo10+1_all.deb
+Size: 1628176
+SHA256: 9c072d3b0d3b35fed76d74cbf13d72a9b4e7b08333df5f9ccf4fb55078d0e282
+SHA1: e9125c29a524b0696ed3031f81428f7e2a4e78ba
+MD5sum: 9def9bc6634d4ea5da1f9afba71a363a
+Description: CMake data files (modules, templates and documentation)
+ This package provides CMake architecture independent data files (modules,
+ templates, documentation etc.). Unless you have cmake installed, you probably
+ do not need this package.
+
+Package: cmake-doc
+Source: cmake
+Version: 3.16.3-3~bpo10+1
+Architecture: all
+Maintainer: Debian CMake Team <pkg-cmake-team@lists.alioth.debian.org>
+Installed-Size: 21390
+Depends: cmake-data (= 3.16.3-3~bpo10+1), libjs-sphinxdoc (>= 1.0)
+Recommends: doc-base
+Suggests: cmake
+Homepage: https://cmake.org/
+Priority: optional
+Section: doc
+Filename: pool/main/c/cmake/cmake-doc_3.16.3-3~bpo10+1_all.deb
+Size: 1412508
+SHA256: 33d1f176fae646d0f5fa75a9ca7295697ca82070b0d6ef6256bda69fa5daccad
+SHA1: 947158d03a81a99d369141c3460a79e60f60137f
+MD5sum: d0cd35be7d377e3606a40f420257e5d8
+Description: extended documentation in various formats for CMake
+ CMake is used to control the software compilation process using simple
+ platform and compiler independent configuration files. CMake generates native
+ makefiles and workspaces that can be used in the compiler environment of your
+ choice.
+ .
+ This package provides additional documentation in various formats like HTML or
+ plain text.
+
+Package: debhelper
+Version: 13.3.3~bpo10+1
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 1464
+Depends: autotools-dev, dh-autoreconf (>= 17~), dh-strip-nondeterminism (>= 0.028~), dpkg (>= 1.18.0~), dpkg-dev (>= 1.18.2~), dwz (>= 0.12.20190711), file (>= 3.23), libdpkg-perl (>= 1.17.14), man-db, libdebhelper-perl (= 13.3.3~bpo10+1), po-debconf, perl:any
+Suggests: dh-make
+Breaks: cmake (<< 3.9~), meson (<< 0.40.0~)
+Provides: debhelper-compat (= 9), debhelper-compat (= 10), debhelper-compat (= 11), debhelper-compat (= 12), debhelper-compat (= 13), dh-sequence-dwz, dh-sequence-elf-tools, dh-sequence-installinitramfs, dh-sequence-systemd
+Multi-Arch: foreign
+Priority: optional
+Section: devel
+Filename: pool/main/d/debhelper/debhelper_13.3.3~bpo10+1_all.deb
+Size: 1013344
+SHA256: bf7ff298508bdf7b97f29fb22e4afa74135f7c7d75fe37ba7f52bd77cffab0a5
+SHA1: c0cb471fe3491352c4173248bc1ff37afd22be98
+MD5sum: 3b037e7e9b2f7c6a43095b18d4496eaa
+Description: helper programs for debian/rules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages. Programs
+ are included to install various files into your package, compress
+ files, fix file permissions, integrate your package with the Debian
+ menu system, debconf, doc-base, etc. Most Debian packages use debhelper
+ as part of their build process.
+
+Package: libdebhelper-perl
+Source: debhelper
+Version: 13.3.3~bpo10+1
+Architecture: all
+Maintainer: Debhelper Maintainers <debhelper@packages.debian.org>
+Installed-Size: 402
+Depends: perl:any
+Breaks: debhelper (<< 12.6~)
+Replaces: debhelper (<< 12.6~)
+Multi-Arch: foreign
+Priority: optional
+Section: perl
+Filename: pool/main/d/debhelper/libdebhelper-perl_13.3.3~bpo10+1_all.deb
+Size: 188944
+SHA256: e4f84a92eabf59c474beabd6bb06ae17e7c1ecfd61931f3e59cd92bcba5da901
+SHA1: dbc96d1ab35fc10d25608e6791a911123d4b8d71
+MD5sum: 330acfa839e316dcdd7f248d1c52467b
+Description: debhelper perl modules
+ A collection of programs that can be used in a debian/rules file to
+ automate common tasks related to building Debian packages.
+ .
+ This package provides the perl modules used by the scripts in debhelper.
+
+Package: libexpected-dev
+Source: tl-expected
+Version: 1.0.0~dfsg-2~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 115
+Multi-Arch: foreign
+Homepage: https://tl.tartanllama.xyz/
+Priority: optional
+Section: libdevel
+Filename: pool/main/t/tl-expected/libexpected-dev_1.0.0~dfsg-2~bpo10+1_all.deb
+Size: 16020
+SHA256: 6b73b1beeec15b97f056bc6bb3360e6bf4de270d55f3199846f97d780b9617be
+SHA1: edf465a7a0a2260a3bb7cfc39ec4fa9c4222ddd6
+MD5sum: 303c519376b9d78adda36cb28fc6198c
+Description: C++11/14/17 std::expected with functional-style extensions
+ Single header implementation of std::expected with functional-style extensions.
+ .
+ std::expected is proposed as the preferred way to represent object which will
+ either have an expected value, or an unexpected value giving information about
+ why something failed. Unfortunately, chaining together many computations which
+ may fail can be verbose, as error-checking code will be mixed in with the
+ actual programming logic. This implementation provides a number of utilities to
+ make coding with expected cleaner.
+
+Package: librange-v3-dev
+Source: range-v3
+Version: 0.10.0-1~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 2168
+Recommends: librange-v3-doc
+Multi-Arch: foreign
+Homepage: https://github.com/ericniebler/range-v3
+Priority: optional
+Section: libdevel
+Filename: pool/main/r/range-v3/librange-v3-dev_0.10.0-1~bpo10+1_all.deb
+Size: 218676
+SHA256: 476f03dcde35bdb32dd5d6f5466a3a655db76716280c7981a2e3e182d794631e
+SHA1: f2fcfa9a0d9ec6db65a9d22e636833c279faeca8
+MD5sum: b5a93ede2a911c27985597d14648e429
+Description: range algorithms, views, and actions for C++14/17/20 - headers
+ Range-v3 is a generic library that augments the existing standard library with
+ facilities for working with ranges. A range can be loosely thought of a pair
+ of iterators. This library provides a full implementation of all the standard
+ algorithms with range-based overloads for convenience.
+ .
+ This package contains headers of the library.
+
+Package: librange-v3-doc
+Source: range-v3
+Version: 0.10.0-1~bpo10+1
+Architecture: all
+Maintainer: Nicholas Guriev <guriev-ns@ya.ru>
+Installed-Size: 17830
+Multi-Arch: foreign
+Homepage: https://github.com/ericniebler/range-v3
+Priority: optional
+Section: doc
+Filename: pool/main/r/range-v3/librange-v3-doc_0.10.0-1~bpo10+1_all.deb
+Size: 1054408
+SHA256: 4e7ee8328415e44a7cb3fcb59ba635285e8695bb69a61260798b4d45e1c6f3da
+SHA1: a495da65c52b3b6453dc90c98fba8561a0bf6b27
+MD5sum: bea8c9268cbd8054c7acffd6cea58dad
+Description: range algorithms, views, and actions for C++14/17/20 - documentation
+ Range-v3 is a generic library that augments the existing standard library with
+ facilities for working with ranges. A range can be loosely thought of a pair
+ of iterators. This library provides a full implementation of all the standard
+ algorithms with range-based overloads for convenience.
+ .
+ This package ships HTML documentation of the library.
+

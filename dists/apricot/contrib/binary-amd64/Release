@@ -1,0 +1,6 @@
+Archive: apricot
+Component: contrib
+Origin: deepin
+Label: deepin
+Architecture: amd64
+Description: Apt repository for Rabenda's ppa
